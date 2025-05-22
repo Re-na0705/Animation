@@ -192,13 +192,47 @@ footer label{
     header ul{
         width: 100%;
     }
+    .mainbox{
+        width: 100%;
+        height: 250px;
+    }
+    .main-image{
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
     article{
         width: 100%;
+        padding: 10px;
+    }
+    article h1{
+        width: 100%;
+    }
+    article p{
+        font-size: 11px;
     }
     .parent div{
         width: 100%;
     }
     .parent p{
         padding: 0;
+    }
+    #achievements div{
+        width: 100%;
+    }
+    .link{
+        width: 60%;
+        font-size: 10px;
+        margin: 20px auto;
+        border-radius: 30px;
+    }
+    .back{
+        width: 60%;
+        font-size: 10px;
+        margin: 20px auto;
+        border-radius: 30px;
+    }
+    .last-p{
+        letter-spacing: 3px;
     }
 }
